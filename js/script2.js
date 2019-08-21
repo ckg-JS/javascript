@@ -4,7 +4,9 @@ function doAction2(){
     
     
     pen.fillStyle ="red";
-
+    // 
+    //  次の命令をfor()を使って書きなおしなさい。
+    //
     pen.fillRect( 10,10,10,10);
     pen.fillRect( 30,10,10,10);
     pen.fillRect( 50,10,10,10);
