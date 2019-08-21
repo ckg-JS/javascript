@@ -1,7 +1,7 @@
 #
 SET USERMAIL="ckg17999@st.ckg.ac.jp"
 SET USERNAME="Yoshihiro UEDA"
-SET BRANCH="17999-2019-0702"
+SET BRANCH="17999-2019-0701"
 SET REPOSITORYNAME="javascript"
 SET REPOSITORY="http://github.com/ckg-JS/javascript.git"
 
