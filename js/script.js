@@ -7,6 +7,11 @@ function doAction(){
     // 
     //  次の命令をfor()を使って書きなおしなさい。
     //
+    for(indir=10;indira<=130;indira=indira+20{
+        pen.fillRect(indira,10,10,10){
+
+        }
+    })
     pen.fillRect( 10,10,20,30);
     pen.fillRect( 30,20,20,30);
     pen.fillRect( 50,30,20,30);
