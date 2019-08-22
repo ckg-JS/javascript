@@ -9,10 +9,12 @@ function doAction5(){
     // 
     //  次の命令をfor()を使って書きなおしなさい。
     //
-    pen.fillRect( posxs[0],posys[3],10,10);
-    pen.fillRect( posxs[1],posys[2],10,10);
-    pen.fillRect( posxs[2],posys[1],10,10);
-    pen.fillRect( posxs[3],posys[0],10,10);
+   
+    index=0;
+    while(index<=3){
+        pen.fillRect(posxs[index],posys[3-index],10,10);
+        index++;
+    }
     
 
 }
