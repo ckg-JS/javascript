@@ -3,49 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <title>sample</title>
-        <script src="js/reset.js"></script>
-        <script src="js/script.js"></script>    <!--　btnAction() -->
-        <script src="js/script2.js"></script>   <!-- btnAction2() -->
-        <script src="js/script3.js"></script>   <!-- btnAction3() -->
-        <script src="js/script4.js"></script>   <!-- btnAction4() -->
-        <script src="js/script5.js"></script>   <!-- btnAction5() -->
-
+        <script src="js/script0825-1.js"></script>        
         <link rel="stylesheet" href="css/main.css">
-
+        <script>
+        function btnAction001_1(){
+            let item = document.getElementById( "txtNum");
+            let text = item.value;
+//            alert( text);
+            if( text == "1"){
+                alert( "happy");
+            }else{
+                alert( "unhappy");
+            }
+        }
+        </script>
     </head>
     <body>
+        <a  href="ex002.html">1週間前の演習</a><br>
         <canvas id="cCanvas" width="600px" height="400px"></canvas><br>
+        <input type="text" id="txtNum" width="2"><br>
+        <button onclick="btnAction001_1()" id="btn01">
+            数字で線を分けます：右上ー左下（１）　右下ー左上（２）
+        </button>
 
-        <button onclick="clearWindow()" id="btn00">
-            clear windows
-        </button><br>
-        画面を消去する<br>
-        <br>
-        <!-- for　文の練習-->
-        <button onclick="doAction2()" id="btn02">
-            draw picture dot line.
-        </button><br>
-        点線を描く<br>
-        <br>
-        <button onclick="doAction3()" id="btn03">
-            draw picture dot line . use Array
-        </button><br>
-        点線を描く; Arrayを使う<br>
-        <br>
-        <button onclick="doAction()" id="btn01">
-            draw picture
-        </button><br>
-        点線を斜めに移動しながら描く
-        <br>
-        <button onclick="doAction4()" id="btn04">
-            draw Picture.
-        </button><br>
-        Arrayを二つ使って書く。<br>        
-        <br>
-        <button onclick="doAction5()" id="btn04">
-            draw Picture.
-        </button><br>
-        Arrayを二つ使って書く。<br>        
-        <br>
     </body>
 </html>
