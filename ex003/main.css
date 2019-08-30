@@ -1,0 +1,19 @@
+.qaitem{
+    width: 400px;
+    padding: 0px;
+    margin: 10px;
+    text-align: center;
+
+}
+.boxitem{
+    border: solid 1px red;
+    width: 450px;
+    text-align: center;
+    margin: 5px;
+
+}
+.q{
+    border: solid 5px red;
+    margin: 2px;
+    
+}
